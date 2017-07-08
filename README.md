@@ -7,4 +7,4 @@ Despite the fact I hate Minecraft and all of its forms, I felt pretty proud of t
  - The S key saves your map to an XML file.
  - The L key loads it back.
  - The mouse controls your position. Click to place a block.
- -- The arrow keys and space can also be used.
+ - The arrow keys and space can also be used.
