@@ -1,4 +1,4 @@
-# Minecraft2D
+# LWJGL 2D Minecraft/Terraria Clone
 A LWJGL clone of Terraria—ish.
 Despite the fact I hate Minecraft and all of its forms, I felt pretty proud of this project. 
 ## Controls
