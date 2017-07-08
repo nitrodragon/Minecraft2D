@@ -24,10 +24,8 @@ public class Block {
 		try {
 			this.texture = TextureLoader.getTexture("PNG", new FileInputStream(new File(type.location)));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -35,8 +33,9 @@ public class Block {
 		texture.bind();
 		glLoadIdentity();
 		glTranslatef(x, y, 0);
+		// Draws each block with its set texture
 		glBegin(GL_QUADS);
-			glTexCoord2f(0, 0);
+			glTexCoord2f(0, 0); // Tex = texture
 			glVertex2f(0, 0);
 			glTexCoord2f(1, 0);
 			glVertex2f(BLOCK_SIZE, 0);
@@ -45,7 +44,7 @@ public class Block {
 			glTexCoord2f(0,1);
 			glVertex2f(0, BLOCK_SIZE);
 		glEnd();
-		glLoadIdentity();
+		glLoadIdentity(); // Loading it twice, just to be safe.
 	}
 	public BlockType getType() {
 		return type;
