@@ -12,5 +12,5 @@ Despite the fact I hate Minecraft and all of its forms, I felt pretty proud of t
 ## Screenshot
 ![alt text](https://3.bp.blogspot.com/-uKpEeZUw6TU/WWEsGhkOp2I/AAAAAAAAC2U/tTDlsN7RKSMbuzBbPdm2J8NUqBStNsEqgCLcBGAs/s320/screenshot.png)
 
-### Hey, nitrodragon, Don't you have this in your [lwjgl_lessons](http://github.com/nitrodragon/lwjgl_lessons) repo?
+### Hey, nitrodragon, Don't you have this in your [lwjgl_collection](http://github.com/nitrodragon/lwjgl_collection) repo?
 Why yes, yes I do. This version, however, is far more complicated, elaborate, and commented, so I posted it separate as well.
